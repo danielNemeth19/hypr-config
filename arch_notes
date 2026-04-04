@@ -1,0 +1,28 @@
+Base tutorial:
+    - https://github.com/gaurav23b/simple-hyprland
+
+Bluetooth: blueman-applet
+
+Dolphin theming:
+- icons are here: /usr/share/icons/candy-icons/
+    - had to delete 'master' from folder name and owned by my user
+    - then i set this in ~/.config/kdeglobals:
+    [Icons]
+    Theme=candy-icons
+- theme:
+    - themes need to be installed in ~/.config/Kvantum/catppuccin-mocha-blue
+    - theme has to have a .kvconfig file
+    - after starting kvantummanager theme needs to be selected in the "change/delete" section
+
+SDDM theming
+- theme folder needs to be copied to /ust/share/sddm/themes
+- to try a theme, do `sddm-greeter --test-mode --theme /ust/share/sddm/themes/sugar-candy`
+    - to exit out of it do ctrl-c
+- to set a theme, it needs to be set in /etc/sddm.conf as:
+    [Theme]
+    Current=tokyo-night-sddm
+
+
+
+
+
