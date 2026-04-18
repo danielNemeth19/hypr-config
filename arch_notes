@@ -1,3 +1,14 @@
+Install Arch:
+- arch wiki install instructions
+- loadkeys hu101 -> to load hungarian keys
+- check partitions:
+    - if there's an EFI parititoin, use it! Don't re-create, don't format 
+    - same for swap
+    - root needs to be formatted
+
+
+
+
 Base tutorial:
     - https://github.com/gaurav23b/simple-hyprland
 
